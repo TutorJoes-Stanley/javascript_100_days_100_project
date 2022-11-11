@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+html{
+  font-size:22px;
+}
+
+
+body{
+  background-color: #353b48;
+  padding: 1rem;
+}
+
+
+.box{
+  height: 8rem;
+  border: 5px solid white;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s;
+  transform-origin: top;
+}
+.box img:hover{
+transform: scale(1.5);
+
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 1rem;
+}
+
+.control{
+  max-width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn-group button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    font-size: 0.7rem;
+    background-color: #00b894;
+    color:#fff;
+    border: 2px solid #00b894;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+.btn-group button:hover,
+.btn-group .btn-clicked
+{
+  background-color: #353b48;
+}
+
+#search{
+  width: 200px;
+  height: 30px;
+  outline: none;
+  padding: 0 10px;
+  border:2px solid #00b894;
+  border-radius: 3px;
+  font-size: 0.6rem;
+}

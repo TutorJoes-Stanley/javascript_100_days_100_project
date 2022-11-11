@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Cart</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="card-left">
+      <div class="main-image">
+          <img src="images/1.jpg">
+          <img src="images/2.jpg">
+          <img src="images/3.jpg">
+          <img src="images/4.jpg">
+      </div>
+      <div class="img-select">
+        <div class="img active">
+          <a href="#" data-id="1"><img src="images/1.jpg"></a>
+        </div>
+        <div class="img">
+          <a href="#" data-id="2"><img src="images/2.jpg"></a>
+        </div>
+        <div class="img">
+          <a href="#" data-id="3"><img src="images/3.jpg"></a>
+        </div>
+        <div class="img">
+          <a href="#" data-id="4"><img src="images/4.jpg"></a>
+        </div> 
+      </div>
+    </div>
+    <div class="card-right">
+        <h2>Canon EOS 1500D</h2>
+        <div class="star">
+         <div class="star-group">
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+          <ion-icon name="star"></ion-icon>
+         </div>
+         <span>3 Reviews</span>
+        </div>
+        <h4>$39.00   <span> $50.00</span></h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum suscipit, omnis quis, esse tenetur eligendi est quibusdam enim in temporibus sint architecto facere numquam voluptas. Enim porro dolorum odio labore!</p>
+
+        <div class="form">
+          <div class="form-group">
+            <label>Color</label>
+            <select>
+                <option>Black</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Qty</label>
+            <div class="input-group">
+              <button class="minus">-</button>
+              <input type="text" value="1" id="qty">
+              <button class="plus">+</button>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn-cart">Add Cart</button>
+
+    </div>
+  </div>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>

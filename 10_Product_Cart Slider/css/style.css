@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: #efeff0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 1100px;
+  height: 450px;
+  background-color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  gap: 10px;
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+.card-left{
+  width: 600px;
+  overflow: hidden;
+}
+
+.main-image{
+  display: flex;
+transition: all 0.5s ease;
+}
+.img-select{
+  display: flex;
+  margin-top: 2px;
+}
+.img{
+  border:2px solid white;
+}
+.active{
+  border-color:black;
+
+}
+
+.card-right{
+  padding: 10px;
+}
+
+.card-right h2{
+  font-weight: 400;
+
+}
+
+.star{
+  display: flex;
+  gap:20px;
+  cursor: pointer;
+}
+.star-group ion-icon{
+  color:rgba(0,0,0,0.3)
+}
+.star-group ion-icon:nth-child(1),
+.star-group ion-icon:nth-child(2),
+.star-group ion-icon:nth-child(3)
+{
+color:gold;
+}
+
+.card-right h4{
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card-right h4 span{
+  text-decoration: line-through;
+  color:rgba(0,0,0,0.2);
+  font-size:15px;
+  padding-left: 15px;
+}
+
+.card-right p{
+  margin: 15px 0;
+  color:rgba(0,0,0,0.5);
+  padding:10px 0 ;
+}
+
+.form{
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.form-group label,
+.form-group select
+{
+display: block;
+}
+
+.form-group select{
+  width: 150px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.input-group{
+display:flex;
+width: 220px;
+height: 30px;
+}
+.input-group input{
+  width: 50px;
+  border: 1px solid #ccc;
+  outline: none;
+  padding-left:20px ;
+  font-size: 18px;
+}
+.input-group button{
+  width: 30px;
+  outline: none;
+  border: none;
+  background-color: #111;
+  color:white;
+}
+
+.btn-cart{
+  width: 150px;
+  height: 40px;
+  border: none;
+  outline: none;
+  color:white;
+  background-color: #FF8401;
+  font-size: 16px;
+}
