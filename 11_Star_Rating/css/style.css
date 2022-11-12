@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  background-color: aliceblue;
+}
+.star{
+  border:none;
+  background-color: unset;
+  color:goldenrod;
+  font-size: 3rem;
+}
+
+p{
+  text-align: center;
+}
+
